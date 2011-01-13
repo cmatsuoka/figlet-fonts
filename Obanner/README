@@ -1,0 +1,60 @@
+0   Origins
+1   Nomencalture
+1.1 Font
+1.2 Files
+2   Ouput
+2.1 Width
+2.2 Exactitude
+
+0
+
+This font is based on the standard UN*X command banner(6)
+by Mark Horton, 1993.
+
+1.1
+
+banner(6) is the "original" banner or at least the one most are familiar with.
+Hence this font (it is one font, in various sizes) is called Obanner short for
+Original banner; as opposed to the banner shipped with figlet ;-).
+
+1.2
+
+The numbers at the end of the filename correspond to the size of the font,
+Obanner80 contains the output of banner -w 80; which is not really 80 columns.
+
+2.1 Output Width
+
+You should use -w 1 when using the Obanner font.
+banner(6) creates vertical output and therefore only one character per row;
+you can get some interesting output otherwise ;-)
+
+2.2 Output Exactitude
+
+Due to the way figlet is designed this font cannot exactly replicate
+banner(6) output without a little help.
+
+1. banner -w 16 foo
+2. figlet -f Obanner16 -w 1 -A foo
+3. figlet -f Obanner16 -w 1 -A foo | perl -p -e 's/^\s+$//'
+
+1.                2.             3.
+          #              #              #    
+    ###########    ###########    ###########
+          #  ##          #  ##          #  ##
+      ##                            ##       
+    #    #                        #    #     
+    #     #                       #     #    
+     #####                         #####     
+      ##                            ##       
+    #    #           ##           #    #     
+    #     #        #    #         #     #    
+     #####         #     #         #####     
+                    #####         
+                              
+	                      
+	                      
+	                      
+	             ##       
+	           #    #     
+	           #     #    
+	            #####     
