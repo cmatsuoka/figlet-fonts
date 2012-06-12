@@ -1,8 +1,14 @@
-flf2a$ 6 5 32 15 4
+flf2a$ 6 5 32 15 10
 Font name is graffiti.flf
 This figlet font designed by Leigh Purdie (purdie@zeus.usq.edu.au)
 'fig-fonted' by Leigh Purdie and Tim Maggio (tim@claremont.com)
 Date: 5 Mar 1994
+
+---
+
+Modified 2012-05 by Patrick Gillespie (patorjk@gmail.com) 
+- Changed the hardblanks around certain punctuation characters (., and -) to improve smushing.
+- Added the 0xCA0 character.
 $@
 $@
 $@
@@ -75,24 +81,24 @@ $ __|  |___$@
 $/__    __/$@
 $   |__|   $@
 $          $@@
-$  @
-$  @
-$  @
-$  @
-$/\@
-$)/@@
-$       $@
-$       $@
+    @
+    @
+    @
+    @
+$/\$@
+$)/$@@
+         @
+         @
 $ ______$@
 $/_____/$@
 $       $@
-$       $@@
-$  @
-$  @
-$  @
-$  @
-$/\@
-$\/@@
+         @@
+    @
+    @
+    @
+    @
+$/\$@
+$\/$@@
 $    /\$@
 $   / /$@
 $  / / $@
@@ -615,3 +621,10 @@ $        $@@
 @
 @
 @@
+0xCA0  KANNADA LETTER TTHA
+  _____)@
+ /_____/@
+ /    \ @
+(  ()  )@
+$\____/$@
+        @@
