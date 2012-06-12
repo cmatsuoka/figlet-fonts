@@ -1,4 +1,5 @@
-flf2a$ 9 8 12 0 12 0 24447 0
+flf2a$ 9 8 13 0 18 0 24447 0
+Font   : Fire Font-k
 Author : MJP
 Date   : 2003/11/6 11:11:05
 Version: 1.0
@@ -11,6 +12,11 @@ Have a look at: http://www.jave.de
 Permission is hereby given to modify this font, as long as the
 modifier's name is placed on a comment line.
 Based on Small.flf by Glenn Chappell 4/93 -- based on Standard
+
+---
+
+Modified 2012-05 by Patrick Gillespie (patorjk@gmail.com) 
+- Added the 0xCA0 character.
 $ #
 $ #
 $ #
@@ -929,3 +935,13 @@ __    #
 | ||_/ #
 |_|    #
        ##
+0xCA0  KANNADA LETTER TTHA
+    )   #
+ ( /(   #
+ )\())  #
+((_)\__)#
+ /____/ #
+ / _ \  #
+| (_) | #
+$\___/$ #
+        ##
